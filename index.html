@@ -6,13 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    img {
-      border-radius: 80px;
-      border-bottom: 2px solid #ddd;
+    ul {
+      list-style-type: none;
+      background-color: #121626;
+      display: flex;
+      padding: 5px;
+    }
+    ul li {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      padding-inline: 10rem;
+    }
+
+    ul li a {
+      color: #ccc;
+      font-size: 16px;
+      font-family: monospace;
+      transition: 0.5s;
+    }
+
+    ul li a:hover {
+      color: orangered;
     }
   </style>
 </head>
 <body>
-  <img src="./imagens/download.jpg" alt="Imagens de lua"/>
+  <ul>
+    <li><a>Inicio</a></li>
+    <li><a>Contato</a></li>
+    <li><a>Projetos</a></li>
+  </ul>
 </body>
 </html>
